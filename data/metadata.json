@@ -1,0 +1,70 @@
+{
+  "source": "Yahoo Finance via yfinance (cours de clôture ajustés, auto_adjust=True)",
+  "yfinance_version": "1.2.0",
+  "downloaded_at": "2026-10-09T16:36:32",
+  "requested_period": [
+    "2018-01-01",
+    "2026-10-09"
+  ],
+  "aligned_period": [
+    "2018-01-02",
+    "2026-10-09"
+  ],
+  "n_obs": 2268,
+  "base_currency": "EUR",
+  "currencies": {
+    "MC.PA": "EUR",
+    "ASML.AS": "EUR",
+    "TTE.PA": "EUR",
+    "JPM": "USD",
+    "MSFT": "USD",
+    "TLT": "USD",
+    "LQD": "USD",
+    "GLD": "USD",
+    "VNQ": "USD",
+    "SPY": "USD"
+  },
+  "quote_types": {
+    "MC.PA": "EQUITY",
+    "ASML.AS": "EQUITY",
+    "TTE.PA": "EQUITY",
+    "JPM": "EQUITY",
+    "MSFT": "EQUITY",
+    "TLT": "ETF",
+    "LQD": "ETF",
+    "GLD": "ETF",
+    "VNQ": "ETF",
+    "SPY": "ETF"
+  },
+  "fx_pairs": [
+    "USDEUR=X"
+  ],
+  "tickers": [
+    "MC.PA",
+    "ASML.AS",
+    "TTE.PA",
+    "JPM",
+    "MSFT",
+    "TLT",
+    "LQD",
+    "GLD",
+    "VNQ"
+  ],
+  "market": "SPY",
+  "calendar": {
+    "ffill_max_days": 5,
+    "filled_cells_by_ticker": {
+      "MC.PA": 21,
+      "ASML.AS": 22,
+      "TTE.PA": 21,
+      "JPM": 63,
+      "MSFT": 63,
+      "TLT": 63,
+      "LQD": 63,
+      "GLD": 63,
+      "VNQ": 63,
+      "SPY": 63
+    },
+    "dropped_rows": 0
+  }
+}
